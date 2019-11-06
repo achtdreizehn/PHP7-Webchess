@@ -17,11 +17,11 @@ msgstr ""
 
 #: C:\projects\chess\webchess/chess.php:148
 msgid " - Your Move"
-msgstr " - Ihr Umzug"
+msgstr " - Du bist dran"
 
 #: C:\projects\chess\webchess/chess.php:150
 msgid " - Opponent's Move"
-msgstr "- Gegner"
+msgstr "- Gegner ist dran"
 
 #: C:\projects\chess\webchess/chess.php:179
 msgid "Start of game"
@@ -37,11 +37,11 @@ msgstr "Zurück fünf Halbzüge"
 
 #: C:\projects\chess\webchess/chess.php:182
 msgid "Go back one halfmove"
-msgstr "Gehen Sie einen halfmove"
+msgstr "Halbschritt zurück"
 
 #: C:\projects\chess\webchess/chess.php:183
 msgid "Go forward one halfmove"
-msgstr "Gehe vorwärts ein halfmove"
+msgstr "Halbschritt vor"
 
 #: C:\projects\chess\webchess/chess.php:184
 msgid "Go forward five halfmoves"
@@ -58,7 +58,7 @@ msgstr "Ende"
 #: C:\projects\chess\webchess/chess.php:247
 msgid "When castling, just move the king (the rook will move automatically)."
 msgstr ""
-"Wenn Rochade, bewegen Sie einfach den König (der rook automatisch bewegen)."
+"Für eine Rochade, bewegen Sie einfach den König (der Turm kommt automatisch)."
 
 #: C:\projects\chess\webchess/chess.php:248
 msgid "Captured pieces"
@@ -116,7 +116,7 @@ msgstr ""
 #: C:\projects\chess\webchess/mailmsginvite.php:23
 #, php-format
 msgid "%s: %s invites you to play a new game."
-msgstr "%s: %s lädt Sie ein neues Spiel zu spielen."
+msgstr "%s: %s lädt Sie zu einem neuen Spiel ein."
 
 #: C:\projects\chess\webchess/mailmsginvite.php:27
 #, php-format
@@ -132,7 +132,7 @@ msgid ""
 "This message has been automatically been sent by %s and should not be "
 "replied to"
 msgstr ""
-"Diese Nachricht wurde automatisch von %s geschickt worden und sollten nicht "
+"Diese Nachricht wurde automatisch von %s geschickt und sollte nicht "
 "beantwortet werden"
 
 #: C:\projects\chess\webchess/mailmsginvite.php:32
@@ -147,7 +147,7 @@ msgstr "Gehen Sie zu: %s zu spielen."
 #: C:\projects\chess\webchess/mailmsgmove.php:23
 #, php-format
 msgid "%s: %s moved %s on board %s."
-msgstr "%s: %s bewegt %s an Bord %s."
+msgstr "%s: %s bewegt %s nach %s."
 
 #: C:\projects\chess\webchess/mailmsgmove.php:29
 #, php-format
@@ -156,17 +156,17 @@ msgstr "Dein Gegner %s hat die folgende Bewegung gespielt:"
 
 #: C:\projects\chess\webchess/mailmsgmove.php:31
 msgid "It is your turn now"
-msgstr "Es ist nun an der Reihe"
+msgstr "Du bist dran"
 
 #: C:\projects\chess\webchess/mailmsgresign.php:23
 #, php-format
 msgid "%s: %s resigns on board %s."
-msgstr "%s: %s tritt zurück an Bord %s."
+msgstr "%s: %s tritt zurück von %s."
 
 #: C:\projects\chess\webchess/mailmsgresign.php:29
 #, php-format
 msgid "Your oppenent %s has resigned the game on board %s."
-msgstr "Ihre oppenent %s hat das Spiel an Bord %s zurückgetreten."
+msgstr "Dein Gegner %s hat das Spiel %s verlassen."
 
 #: C:\projects\chess\webchess/mailmsgwithdraw.php:22
 #, php-format
@@ -189,7 +189,7 @@ msgstr "Aktive Spiele"
 #: C:\projects\chess\webchess/mainmenu.php:589
 #: C:\projects\chess\webchess/mainmenu.php:917
 msgid "Pending challenges"
-msgstr "Bis Herausforderungen"
+msgstr "Offene Spiele"
 
 #: C:\projects\chess\webchess/mainmenu.php:590
 #: C:\projects\chess\webchess/mainmenu.php:1202
@@ -198,7 +198,7 @@ msgstr "Nachrichten"
 
 #: C:\projects\chess\webchess/mainmenu.php:591
 msgid "Challenge others"
-msgstr "Fordern Sie andere"
+msgstr "Spieler herausfordern"
 
 #: C:\projects\chess\webchess/mainmenu.php:592
 msgid "Replay"
@@ -215,7 +215,7 @@ msgstr "Persönlich"
 
 #: C:\projects\chess\webchess/mainmenu.php:595
 msgid "Reload"
-msgstr "Nachladen"
+msgstr "Neu laden"
 
 #: C:\projects\chess\webchess/mainmenu.php:596
 msgid "Logout"
@@ -260,40 +260,40 @@ msgid ""
 "'Update' button to store the changes."
 msgstr ""
 "Hier können Sie Ihre persönlichen Daten ändern. Nicht vergessen, den Button "
-"'Aktualisieren' drücken, um die Änderungen zu speichern."
+"'Aktualisieren' zu drücken, um die Änderungen zu speichern."
 
 #: C:\projects\chess\webchess/mainmenu.php:654
 #: C:\projects\chess\webchess/newuser.php:100
 msgid "History"
-msgstr "Geschichte"
+msgstr "Verlauf"
 
 #: C:\projects\chess\webchess/mainmenu.php:660
 #: C:\projects\chess\webchess/mainmenu.php:667
 #: C:\projects\chess\webchess/newuser.php:102
 msgid "PGN"
-msgstr "PGN"
+msgstr "Kurzer Verlauf"
 
 #: C:\projects\chess\webchess/mainmenu.php:661
 #: C:\projects\chess\webchess/mainmenu.php:668
 #: C:\projects\chess\webchess/newuser.php:103
 msgid "Verbose"
-msgstr "Weitschweifig"
+msgstr "Ausführlicher Verlauf"
 
 #: C:\projects\chess\webchess/mainmenu.php:672
 #: C:\projects\chess\webchess/newuser.php:105
 msgid "History Layout"
-msgstr "Layout-Geschichte"
+msgstr "Verlauf-Layout"
 
 #: C:\projects\chess\webchess/mainmenu.php:678
 #: C:\projects\chess\webchess/mainmenu.php:685
 #: C:\projects\chess\webchess/newuser.php:107
 msgid "Columns (Scoresheet)"
-msgstr "Columns (Torschützen)"
+msgstr "Tabellarisch"
 
 #: C:\projects\chess\webchess/mainmenu.php:679
 #: C:\projects\chess\webchess/newuser.php:108
 msgid "Paragraph"
-msgstr "Absatz"
+msgstr "Sätze, Absätze"
 
 #: C:\projects\chess\webchess/mainmenu.php:686
 msgid " Paragraph"
@@ -331,7 +331,7 @@ msgstr "Master"
 #: C:\projects\chess\webchess/mainmenu.php:739
 #: C:\projects\chess\webchess/newuser.php:115
 msgid "Auto-reload"
-msgstr "Auto-Reload"
+msgstr "Auto-Neuladen"
 
 #: C:\projects\chess\webchess/mainmenu.php:739
 msgid "min: "
@@ -353,12 +353,12 @@ msgid ""
 "Enter a valid email address if you would like to be notified when your "
 "opponent makes a move. Leave blank otherwise."
 msgstr ""
-"Geben Sie eine gültige E-Mail-Adresse, wenn Sie möchten informiert werden, "
-"wenn der Gegner einen Zug macht. Leer lassen sonst."
+"Geben Sie eine gültige E-Mail-Adresse an, wenn Sie  informiert werden möchten, "
+"wenn der Gegner einen Zug macht. Ansonsten leer lassen."
 
 #: C:\projects\chess\webchess/mainmenu.php:746
 msgid "Test Email"
-msgstr "Test-E-Mail"
+msgstr "E-Mail testen"
 
 #: C:\projects\chess\webchess/mainmenu.php:756
 #: C:\projects\chess\webchess/mainmenu.php:763
@@ -368,7 +368,7 @@ msgstr "Nur meine Spiele zeigen"
 #: C:\projects\chess\webchess/mainmenu.php:757
 #: C:\projects\chess\webchess/mainmenu.php:764
 msgid "Show also games by others"
-msgstr "Auch zeigen Spiele, die von anderen"
+msgstr "Auch andere Spiele zeigen"
 
 #: C:\projects\chess\webchess/mainmenu.php:776
 #: C:\projects\chess\webchess/mainmenu.php:786
@@ -398,7 +398,7 @@ msgstr "Anfänger (... -1200)"
 #: C:\projects\chess\webchess/mainmenu.php:828
 #: C:\projects\chess\webchess/mainmenu.php:838
 msgid "Occasional (1200-1800)"
-msgstr "Gelegentliche (1200-1800)"
+msgstr "Gelegenheitsspieler (1200-1800)"
 
 #: C:\projects\chess\webchess/mainmenu.php:779
 #: C:\projects\chess\webchess/mainmenu.php:789
@@ -408,7 +408,7 @@ msgstr "Gelegentliche (1200-1800)"
 #: C:\projects\chess\webchess/mainmenu.php:829
 #: C:\projects\chess\webchess/mainmenu.php:839
 msgid "Hobbyist (1800-2000)"
-msgstr "Hobbyist (1800-2000)"
+msgstr "Hobby-Spieler (1800-2000)"
 
 #: C:\projects\chess\webchess/mainmenu.php:780
 #: C:\projects\chess\webchess/mainmenu.php:790
@@ -418,7 +418,7 @@ msgstr "Hobbyist (1800-2000)"
 #: C:\projects\chess\webchess/mainmenu.php:830
 #: C:\projects\chess\webchess/mainmenu.php:840
 msgid "Expert (2000-2200)"
-msgstr "Expert (2000-2200)"
+msgstr "Experte (2000-2200)"
 
 #: C:\projects\chess\webchess/mainmenu.php:781
 #: C:\projects\chess\webchess/mainmenu.php:791
@@ -437,15 +437,15 @@ msgstr "Sie können %s mit diesen allgemeinen Einstellungen anpassen."
 
 #: C:\projects\chess\webchess/mainmenu.php:869
 msgid "Issue a challenge"
-msgstr "Geben Sie eine Herausforderung"
+msgstr "Melden Sie eine Herausforderung"
 
 #: C:\projects\chess\webchess/mainmenu.php:870
 msgid "Select Opponent"
-msgstr "Wählen Gegner"
+msgstr "Gegner wählen "
 
 #: C:\projects\chess\webchess/mainmenu.php:889
 msgid "Your Color"
-msgstr "Ihre Farbe"
+msgstr "Deine Farbe"
 
 #: C:\projects\chess\webchess/mainmenu.php:891
 msgid "Random"
@@ -469,17 +469,17 @@ msgstr "Schwarz"
 
 #: C:\projects\chess\webchess/mainmenu.php:895
 msgid "Invite"
-msgstr "Laden"
+msgstr "Einladen"
 
 #: C:\projects\chess\webchess/mainmenu.php:896
 #: C:\projects\chess\webchess/newuser.php:124
 #: C:\projects\chess\webchess/opponentspassword.php:125
 msgid "Cancel"
-msgstr "Stornieren"
+msgstr "Zurücknehmen"
 
 #: C:\projects\chess\webchess/mainmenu.php:903
 msgid "Select an opponent and challenge him to a new game."
-msgstr "Wählen Sie einen Gegner herausfordern und ihn zu einem neuen Spiel."
+msgstr "Wählen Sie einen Gegner und fordern ihn zu einem neuen Spiel heraus."
 
 #: C:\projects\chess\webchess/mainmenu.php:922
 msgid "Challenges from other players"
@@ -497,12 +497,12 @@ msgstr "Rang"
 #: C:\projects\chess\webchess/mainmenu.php:1091
 #: C:\projects\chess\webchess/mainmenu.php:1311
 msgid "Id"
-msgstr "Identifikation"
+msgstr "Nr."
 
 #: C:\projects\chess\webchess/mainmenu.php:929
 #: C:\projects\chess\webchess/mainmenu.php:1000
 msgid "Issued"
-msgstr "Ausgestellt"
+msgstr "Gemeldet"
 
 #: C:\projects\chess\webchess/mainmenu.php:930
 #: C:\projects\chess\webchess/mainmenu.php:1001
@@ -511,7 +511,7 @@ msgstr "Aktion"
 
 #: C:\projects\chess\webchess/mainmenu.php:940
 msgid "You are not currently invited to any games"
-msgstr "Sie sind momentan nicht auf alle Spiele eingeladen"
+msgstr "Sie sind momentan in kein Spiel aktiv"
 
 #: C:\projects\chess\webchess/mainmenu.php:972
 msgid "Accept"
@@ -519,11 +519,11 @@ msgstr "Akzeptieren"
 
 #: C:\projects\chess\webchess/mainmenu.php:973
 msgid "Decline"
-msgstr "Rückgang"
+msgstr "Ablehnen"
 
 #: C:\projects\chess\webchess/mainmenu.php:992
 msgid "Pending challenges from you"
-msgstr "Bis Herausforderungen von Ihnen"
+msgstr "Offene Herausforderungen"
 
 #: C:\projects\chess\webchess/mainmenu.php:999
 msgid "Status"
@@ -531,7 +531,7 @@ msgstr "Status"
 
 #: C:\projects\chess\webchess/mainmenu.php:1016
 msgid "You have no current unanswered invitations"
-msgstr "Sie haben keine aktuelle unbeantwortet Einladungen"
+msgstr "Sie haben keine offenen  Einladungen"
 
 #: C:\projects\chess\webchess/mainmenu.php:1054
 msgid "Withdraw"
@@ -542,13 +542,13 @@ msgid ""
 "This is an overview of all your pending challenges. Accept or decline an "
 "invitation to a new game or withdraw your invitations to others."
 msgstr ""
-"Dies ist eine Übersicht über alle Ihre ausstehenden Herausforderungen. "
+"Dies ist eine Übersicht über alle ausstehenden Herausforderungen. "
 "Annehmen oder Ablehnen einer Einladung zu einem neuen Spiel oder "
-"zurückzuziehen Ihre Einladungen an andere."
+" Einladungen an andere zurückziehen."
 
 #: C:\projects\chess\webchess/mainmenu.php:1082
 msgid "Continue a game in progress"
-msgstr "Weiter ein Spiel im Gange"
+msgstr "Weiterspielen"
 
 #: C:\projects\chess\webchess/mainmenu.php:1083
 msgid "Select a game"
@@ -556,12 +556,12 @@ msgstr "Wählen Sie ein Spiel"
 
 #: C:\projects\chess\webchess/mainmenu.php:1087
 msgid "Games in Progress"
-msgstr "Spiele in Progress"
+msgstr "Spiele läuft..."
 
 #: C:\projects\chess\webchess/mainmenu.php:1094
 #: C:\projects\chess\webchess/mainmenu.php:1314
 msgid "Mvs"
-msgstr "Mvs"
+msgstr "Züge"
 
 #: C:\projects\chess\webchess/mainmenu.php:1095
 msgid "Current Turn"
@@ -580,11 +580,11 @@ msgstr "Letzter Zug"
 #: C:\projects\chess\webchess/mainmenu.php:1105
 #: C:\projects\chess\webchess/mainmenu.php:1335
 msgid "You do not currently have any games in progress"
-msgstr "Sie haben derzeit keine Spiele in Arbeit"
+msgstr "Sie haben derzeit keine laufenden Spiele"
 
 #: C:\projects\chess\webchess/mainmenu.php:1156
 msgid "Your move"
-msgstr "Ihr Umzug"
+msgstr "Du bist dran"
 
 #: C:\projects\chess\webchess/mainmenu.php:1158
 msgid "Opponent"
@@ -592,7 +592,7 @@ msgstr "Gegner"
 
 #: C:\projects\chess\webchess/mainmenu.php:1170
 msgid "Will both players play from the same computer?"
-msgstr "Erzielen beide Spieler aus dem gleichen Computer zu spielen?"
+msgstr "Spielen beide Spieler am gleichen Computer?"
 
 #: C:\projects\chess\webchess/mainmenu.php:1172
 msgid "Yes"
@@ -610,8 +610,8 @@ msgstr "WARNUNG!"
 #: C:\projects\chess\webchess/mainmenu.php:1179
 msgid "Games will expire WITHOUT NOTICE if a move isn't made after"
 msgstr ""
-"Spiele werden ohne Benachrichtigung erlischt, wenn ein Schritt nicht nach "
-"gemacht"
+"Spiele werden ohne Benachrichtigung beendet, wenn kein Schritt nach "
+"gemacht wurde"
 
 #: C:\projects\chess\webchess/mainmenu.php:1179
 #: C:\projects\chess\webchess/mainmenu.php:1411
@@ -621,16 +621,16 @@ msgstr "Tage!"
 #: C:\projects\chess\webchess/mainmenu.php:1185
 msgid "Select a game from the list and resume play by clicking on the game id"
 msgstr ""
-"Wählen Sie ein Spiel aus der Liste und Fortsetzen der Wiedergabe, indem Sie "
-"auf die Spiele-ID"
+"Wählen Sie ein Spiel aus der Liste und spielen durch Klick auf die Nr. weiter "
+""
 
 #: C:\projects\chess\webchess/mainmenu.php:1205
 msgid "Send message to player"
-msgstr "Nachricht an Spieler"
+msgstr "Nachricht an Spieler senden"
 
 #: C:\projects\chess\webchess/mainmenu.php:1226
 msgid "Open Message Window"
-msgstr "Meldungsfenster öffnen"
+msgstr "Nachrichtenfenster öffnen"
 
 #: C:\projects\chess\webchess/mainmenu.php:1232
 msgid "Current messages"
@@ -638,7 +638,7 @@ msgstr "Aktuelle Nachrichten"
 
 #: C:\projects\chess\webchess/mainmenu.php:1237
 msgid "Pending messages"
-msgstr "Anstehende Meldungen"
+msgstr "Ausstehende Meldungen"
 
 #: C:\projects\chess\webchess/mainmenu.php:1240
 msgid "Player"
@@ -646,7 +646,7 @@ msgstr "Spieler"
 
 #: C:\projects\chess\webchess/mainmenu.php:1241
 msgid "Subject"
-msgstr "Thema"
+msgstr "Betreff"
 
 #: C:\projects\chess\webchess/mainmenu.php:1242
 msgid "Date"
@@ -654,19 +654,19 @@ msgstr "Datum"
 
 #: C:\projects\chess\webchess/mainmenu.php:1252
 msgid "You have currently no pending messages"
-msgstr "Sie haben noch keine ausstehenden Nachrichten"
+msgstr "Sie haben keine ausstehenden Nachrichten"
 
 #: C:\projects\chess\webchess/mainmenu.php:1284
 msgid "You can send and receive messages to other players here."
-msgstr "Sie können Nachrichten an andere Spieler senden und zu empfangen."
+msgstr "Sie können hier Nachrichten an andere Spieler senden und empfangen."
 
 #: C:\projects\chess\webchess/mainmenu.php:1301
 msgid "View finished games"
-msgstr "Sehen Sie fertigen Spiele"
+msgstr "Beendete Spiele ansehen"
 
 #: C:\projects\chess\webchess/mainmenu.php:1302
 msgid "Select a game to view"
-msgstr "Wählen Sie ein Spiel zu sehen"
+msgstr "Spiel auswählen zum Ansehen"
 
 #: C:\projects\chess\webchess/mainmenu.php:1307
 msgid "Finished games"
@@ -682,28 +682,28 @@ msgstr "Patt"
 
 #: C:\projects\chess\webchess/mainmenu.php:1386
 msgid "resigned"
-msgstr "resignierten"
+msgstr "Aufgegeben"
 
 #: C:\projects\chess\webchess/mainmenu.php:1388
 msgid "Checkmate, you won!"
-msgstr "Checkmate, Sie haben gewonnen!"
+msgstr "Schachmatt, du hast gewonnen!"
 
 #: C:\projects\chess\webchess/mainmenu.php:1390
 msgid "Checkmate, you lost"
-msgstr "Checkmate, verlor man"
+msgstr "Schachmatt, du hast verloren"
 
 #: C:\projects\chess\webchess/mainmenu.php:1392
 msgid "Checkmate, "
-msgstr "Checkmate, "
+msgstr "Schachmatt, "
 
 #: C:\projects\chess\webchess/mainmenu.php:1411
 msgid "Finished games will be deleted WITHOUT NOTICE after"
-msgstr "Fertige Spiele werden ohne Benachrichtigung gelöscht werden, nachdem"
+msgstr "Fertige Spiele werden ohne Benachrichtigung gelöscht, nachdem"
 
 #: C:\projects\chess\webchess/mainmenu.php:1418
 msgid "Select a game to view from the list by clicking on the game id"
 msgstr ""
-"Wählen Sie ein Spiel aus der Liste, indem Sie auf den Spiel-ID anzeigen"
+"Wählen Sie ein Spiel aus der Liste, indem Sie auf den Spiel-Nr. klicken"
 
 #: C:\projects\chess\webchess/newuser.php:36
 msgid "Not Authorized!"
@@ -717,30 +717,30 @@ msgstr "Neuen Benutzer erstellen"
 #: C:\projects\chess\webchess/newuser.php:58
 msgid "Sorry, all personal info fields are required and must be filled out."
 msgstr ""
-"Sorry, werden alle persönlichen Daten Felder sind Pflichtfelder und müssen "
+"Sorry, alle Pflichtfelder müssen "
 "ausgefüllt werden."
 
 #: C:\projects\chess\webchess/newuser.php:65
 msgid "Sorry, the two password fields don't match. Please try again."
 msgstr ""
-"Sorry, die beiden Passwortfelder nicht übereinstimmen. Bitte versuchen Sie "
+"Sorry, die beiden Passwortfelder stimmen nicht überein. Bitte versuchen Sie "
 "es erneut."
 
 #: C:\projects\chess\webchess/newuser.php:84
 msgid "Nick"
-msgstr "Kerbe"
+msgstr "Name"
 
 #: C:\projects\chess\webchess/newuser.php:99
 msgid "Personal preferences"
-msgstr "Persönliche Vorlieben"
+msgstr "Persönliche EInstellungen"
 
 #: C:\projects\chess\webchess/newuser.php:110
 msgid "Theme"
-msgstr "Thema"
+msgstr "Aussehen"
 
 #: C:\projects\chess\webchess/newuser.php:113
 msgid "Plain"
-msgstr "Ebene"
+msgstr "Flach"
 
 #: C:\projects\chess\webchess/newuser.php:115
 msgid "min:"
@@ -758,7 +758,7 @@ msgstr "Willkommen bei %s!"
 #: C:\projects\chess\webchess/newuser.php:133
 msgid "You must remember your nick and password to be able to gain access."
 msgstr ""
-"Sie müssen bedenken Nutzername und Passwort, um Zugang zu erhalten sein."
+"Nutzername und Passwort zum einloggen merken!"
 
 #: C:\projects\chess\webchess/viewmessage.php:55
 msgid "Message View"
@@ -801,8 +801,8 @@ msgstr "Archivieren"
 
 #: C:\projects\chess\webchess/viewmessage.php:122
 msgid "Message Error"
-msgstr "Meldung Fehler"
+msgstr "Sendungsfehler"
 
 #: C:\projects\chess\webchess/viewmessage.php:124
 msgid "An error ocurred!."
-msgstr "Ein Fehler Schaltknopf!."
+msgstr "Fehler! Das hätte nicht passieren dürfen."
